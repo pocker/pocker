@@ -1,21 +1,9 @@
-# Hi, I'm David 👋
-
-**Lead Software Engineer** · 12+ years · Hungary
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="David Szendrei, Lead Software Engineer, 12+ years, Hungary" src="assets/header-light.svg" width="100%">
+</picture>
 
 Backend, cloud and CI/CD engineer with a habit of going down to the firmware and driver level when a problem calls for it.
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" />
-</p>
 
 ## About
 
@@ -27,6 +15,11 @@ I have built software for healthcare research, national eHealth infrastructure, 
 - Build AI-assisted development workflows with Claude Code: multi-agent pipelines that plan, implement, review and test changes, plus agent context and skills for large codebases.
 
 ## Experience
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timing-dark.svg">
+  <img alt="Career timeline: eHealth and research 2014 to 2020, smart home 2017 to 2019, games framework 2019 to 2020, checkout platform 2020 to now, GE-Proton BLE support merged October 2026" src="assets/timing-light.svg" width="100%">
+</picture>
 
 **Checkout platform, global online travel company** · *2020 – present*
 Key engineer in extracting checkout from a legacy web monolith into a standalone Java/Kotlin Spring Boot service. The service covers flights, hotels, cars, packages, cruises and activities across multiple brands and markets.
