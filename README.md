@@ -9,7 +9,7 @@ Backend, cloud and CI/CD engineer with a habit of going down to the firmware and
 
 I have built software for healthcare research, national eHealth infrastructure, IoT and smart home platforms, a real-time multiplayer games platform, and large-scale e-commerce checkout. I currently lead engineering work on a checkout platform and manage a team of five.
 
-- Took part in two monolith-to-microservice migrations, as a contributor on one and a key engineer on the other.
+- Two monolith-to-microservice migrations: contributor on the first, technical lead on the second.
 - Owned CI/CD, cloud deployment and production readiness for a high-traffic service.
 - Contributed Bluetooth LE support to Wine/Proton. It is merged upstream and shipped in GE-Proton.
 - Build AI-assisted development workflows with Claude Code: multi-agent pipelines that plan, implement, review and test changes, plus agent context and skills for large codebases.
@@ -21,12 +21,18 @@ I have built software for healthcare research, national eHealth infrastructure, 
   <img alt="Career timeline: eHealth and research 2014 to 2020, smart home 2017 to 2019, games framework 2019 to 2020, checkout platform 2020 to now, GE-Proton BLE support merged October 2026" src="assets/timing-light.svg" width="100%">
 </picture>
 
-**Checkout platform, global online travel company** · *2020 – present*
-Key engineer in extracting checkout from a legacy web monolith into a standalone Java/Kotlin Spring Boot service. The service covers flights, hotels, cars, packages, cruises and activities across multiple brands and markets.
-- Designed CI/CD on GitHub Actions and Spinnaker, with a Kubernetes environment for every PR and Cypress end-to-end tests
-- Replaced long-lived CI credentials with GitHub OIDC; added CodeQL scanning and moved artifact publishing to Artifactory
-- Migrated tracing to OpenTelemetry and Datadog; tuned startup time, resource limits and autoscaling
-- Mentoring, planning, and technical design for new components
+**Large-scale e-commerce checkout platform** · *2020 – present* · Lead Software Engineer
+Technical lead and people manager (team of 5) for a checkout platform serving multiple brands, product lines and markets.
+- Led the extraction of checkout from a legacy web monolith into a standalone Java/Kotlin Spring Boot service, from the first spike to production traffic, then retired the monolith bridge in a clean cut-over (−66k lines)
+- Built reachability and bean-graph tooling that safely removed 1,442 dead classes (191k lines), each batch verified by build, boot, smoke tests and a bean-graph diff
+- Owned the delivery model: lab/prod pipeline split, release-gated production deploys, canary rollouts, and a Kubernetes environment with Cypress end-to-end tests for every PR
+- Met three hard platform deadlines without an outage: OpenTelemetry tracing, keyless CI with GitHub OIDC, artifact registry migration
+- Production on-call: incident triage and data-driven rollout decisions during traffic migrations
+- Redesigned startup and health probes after profiling ~1,200 Spring beans at boot; cut lab and prod infrastructure cost
+- Enabled other teams with deploy-and-test guides, canary support and automated release announcements; proposed retiring a duplicate stack behind a traffic-mirroring parity test
+- AI-assisted engineering: agent context, rules and skills so coding agents work safely in a very large codebase
+
+*Java 21 · Kotlin · Spring Boot · Kubernetes · GitHub Actions · Spinnaker · Cypress · AWS · OpenTelemetry · Datadog*
 
 **Real-time multiplayer games framework** · *2019 – 2020* · Architect & lead developer
 Designed a greenfield framework for web-based multiplayer games on top of an automatic scoring hardware system. I chose the stack, defined the coding standards, led the team and acted as Scrum Master.
