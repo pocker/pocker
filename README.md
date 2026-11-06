@@ -54,8 +54,8 @@ Greenhouse monitoring tools, national eHealth infrastructure (Liferay, WildFly, 
 
 ## Projects
 
-- **Grupetto**: organise group rides and runs with your club, including events, live tracking, routes and race results. *Launching soon.*<br/>
-  <sub>Python · React · React Native</sub>
+- **Grupetto**: organise group rides and runs with your club, including events, live tracking, routes and race results. Built with a full agentic workflow: Claude Code multi-agent pipelines that plan, implement, review and test each change. *Launching soon.*<br/>
+  <sub>Python · React · React Native · Claude Code</sub>
 - **[fsi6-joystick](https://github.com/pocker/fsi6-joystick)**: turns a FlySky iBUS/SBUS receiver into a Linux joystick for FPV simulators.<br/>
   <sub>Python · uinput</sub>
 - **Hardware and firmware**: a BLE power-driven fan controller, an ESP-NOW floor heating controller with Home Assistant integration, a 3D printer multi-material unit with a [Klipper plugin](https://github.com/pocker/chamois-klipper), and a [custom relay board](https://github.com/pocker/oli-relay-controller).<br/>
@@ -72,4 +72,5 @@ Greenhouse monitoring tools, national eHealth infrastructure (Liferay, WildFly, 
 | **Observability** | OpenTelemetry · Datadog · Splunk · Grafana |
 | **Testing** | JUnit 5 · TestNG · Mockito · Cypress · Jest · Vitest · pytest |
 | **Data** | PostgreSQL · MongoDB · Redis · Elasticsearch |
+| **AI engineering** | Claude Code · GitHub Copilot · multi-agent workflows · agent context, rules & skills · MCP |
 | **Embedded** | ESP32 · PlatformIO · ESPHome · BLE · MQTT · Z-Wave |
