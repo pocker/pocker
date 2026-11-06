@@ -152,7 +152,7 @@ NOW = 2026 + 10 / 12
 
 SIGNALS = [
     # label, sub-label, start, end (None = ongoing), caption on the high part
-    ("CHECKOUT", "large-scale e-commerce", 2020.0, None, "monolith to service, tech lead"),
+    ("CHECKOUT", "large-scale e-commerce", 2020.0, None, "monolith to service, hands-on"),
     ("GAMES", "real-time multiplayer", 2019.0, 2020.0, "architect"),
     ("SMART_HOME", "alarm + IoT platform", 2017.0, 2019.0, "lead dev"),
     ("EARLIER", "eHealth, research, agri", 2014.0, 2020.0, "eHealth infra, rehab + HR pilots"),

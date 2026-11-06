@@ -7,9 +7,9 @@ Backend, cloud and CI/CD engineer with a habit of going down to the firmware and
 
 ## About
 
-I have built software for healthcare research, national eHealth infrastructure, IoT and smart home platforms, a real-time multiplayer games platform, and large-scale e-commerce checkout. I currently lead engineering work on a checkout platform and manage a team of five.
+I have built software for healthcare research, national eHealth infrastructure, IoT and smart home platforms, a real-time multiplayer games platform, and large-scale e-commerce checkout. Today I work as a hands-on, chief-engineer style engineer on a checkout platform: I build proofs of concept, evaluate new technologies, help with technical planning and lead smaller workstreams end to end.
 
-- Two monolith-to-microservice migrations: contributor on the first, technical lead on the second.
+- Two monolith-to-microservice migrations: contributor on the first, key engineer from first spike to production on the second.
 - Owned CI/CD, cloud deployment and production readiness for a high-traffic service.
 - Contributed Bluetooth LE support to Wine/Proton. It is merged upstream and shipped in GE-Proton.
 - Build AI-assisted development workflows with Claude Code: multi-agent pipelines that plan, implement, review and test changes, plus agent context and skills for large codebases.
@@ -22,13 +22,14 @@ I have built software for healthcare research, national eHealth infrastructure, 
 </picture>
 
 **Large-scale e-commerce checkout platform** · *2020 – present* · Lead Software Engineer
-Technical lead and people manager (team of 5) for a checkout platform serving multiple brands, product lines and markets.
-- Led the extraction of checkout from a legacy web monolith into a standalone Java/Kotlin Spring Boot service, from the first spike to production traffic, then retired the monolith bridge in a clean cut-over (−66k lines)
+Hands-on, chief-engineer style role (Lead grade) on a checkout platform serving multiple brands, product lines and markets. Mostly architecture, proofs of concept and code; I lead smaller workstreams and mentor the team.
+- Spiked and drove the extraction of checkout from a legacy web monolith into a standalone Java/Kotlin Spring Boot service, from the first spike to production traffic, then retired the monolith bridge in a clean cut-over (−66k lines)
 - Built reachability and bean-graph tooling that safely removed 1,442 dead classes (191k lines), each batch verified by build, boot, smoke tests and a bean-graph diff
-- Owned the delivery model: lab/prod pipeline split, release-gated production deploys, canary rollouts, and a Kubernetes environment with Cypress end-to-end tests for every PR
+- Delivery workstream: lab/prod pipeline split, release-gated production deploys, canary rollouts, and a Kubernetes environment with Cypress end-to-end tests for every PR
 - Met three hard platform deadlines without an outage: OpenTelemetry tracing, keyless CI with GitHub OIDC, artifact registry migration
 - Production on-call: incident triage and data-driven rollout decisions during traffic migrations
 - Redesigned startup and health probes after profiling ~1,200 Spring beans at boot; cut lab and prod infrastructure cost
+- Evaluated new approaches (merge queues, traffic-mirroring parity tests, AI coding agents) and fed the results into planning
 - Enabled other teams with deploy-and-test guides, canary support and automated release announcements; proposed retiring a duplicate stack behind a traffic-mirroring parity test
 - AI-assisted engineering: agent context, rules and skills so coding agents work safely in a very large codebase
 
